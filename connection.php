@@ -3,7 +3,7 @@ session_id();
 session_start();
 ob_start();
 date_default_timezone_set('America/Chicago');
-$connection = mysql_pconnect("localhost","socialpa_user","lolkpass123") or die("Error connecting to database, hang tight, we are working on it.");
+$connection = mysql_pconnect("sql312.epizy.com","epiz_31432201","lolkpass123") or die("Error connecting to database, hang tight, we are working on it.");
 mysql_select_db("socialpa_database") or die("Error connecting to database, hang tight, we are working on it.");
 	/*Filter */
 	
